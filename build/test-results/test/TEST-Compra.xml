@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Compra" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-26T16:02:11" hostname="DIEGOMARTINEZ" time="127.762">
+  <properties/>
+  <testcase name="RealizarProcesoDePago" classname="Compra" time="127.762"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1624723338561	geckodriver	INFO	Listening on 127.0.0.1:30945
+1624723340231	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--start-maximized" "--ignore-certificate-errors" "--disable-infobars" "-foreground" "-no-remote" "-profile" "C:\\Users\\LUISAM~1\\AppData\\Local\\Temp\\rust_mozprofile1Co4PE"
+1624723344688	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\LuisAmaris\\AppData\\Local\\Temp\\rust_mozprofile1Co4PE\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1624723354849	Marionette	INFO	Listening on port 57331
+1624723356388	Marionette	WARN	TLS certificate errors will be ignored for this session
+jun 26, 2021 11:02:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+1624723452398	Marionette	INFO	Stopped listening on port 57331
+]]></system-err>
+</testsuite>
